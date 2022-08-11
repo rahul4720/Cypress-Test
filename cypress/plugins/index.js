@@ -22,4 +22,6 @@ module.exports = (on, config) => {
   config.defaultCommandTimeout = 10000
   config.env.url = 'https://www.alaskaair.com'
   config.env.ENVIRONMENT = 'DevAutomation'
+
+  return config
 }
