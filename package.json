@@ -1,0 +1,12 @@
+{
+  "scripts": {
+  
+      
+    "cypress:open": "cypress open",
+    "cypress": "cypress run --spec \"cypress/integration/shared/*\""
+  
+    },
+  "devDependencies": {
+    "cypress": "^3.7.0"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "pageLoadTimeout": 180000,
+    "responseTimeout": 180000,
+    "screenshotsFolder": "results/screenshots",
+    "videosFolder": "results/videos"
+}
