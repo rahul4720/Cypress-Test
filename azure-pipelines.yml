@@ -37,6 +37,7 @@ steps:
   displayName: 'Cypress Verify'
 
 - script: |
+    set DEBUG=cypress:*
     ./node_modules/.bin/cypress run --spec 'cypress\integration\shared\Check_1_spec.js' --browser electron
   displayName: 'Cypress Test'
   continueOnError: true
