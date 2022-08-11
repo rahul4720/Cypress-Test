@@ -19,4 +19,7 @@
 module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
+  config.defaultCommandTimeout = 10000
+  config.env.url = 'https://www.alaskaair.com'
+  config.env.ENVIRONMENT = 'DevAutomation'
 }
