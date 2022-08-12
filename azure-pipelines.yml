@@ -38,6 +38,6 @@ steps:
 
 - script: |
     set DEBUG=cypress:server* ...
-    npx cypress run
+    npx cypress run --browser chrome
   displayName: 'Cypress Test'
   continueOnError: true
