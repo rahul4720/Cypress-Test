@@ -40,7 +40,6 @@ steps:
   displayName: 'Cypress Verify'
 
 - script: |
-    set DEBUG=cypress:server* ...
-    npx cypress run 
+    npm run cypress  
   displayName: 'Cypress Test'
   continueOnError: true
