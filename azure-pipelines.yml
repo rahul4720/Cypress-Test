@@ -33,6 +33,7 @@ steps:
 
 - script: |
     npm ci
+    npx browerslist@latest --update-db
   displayName: 'npm install'
 
 - script: |
