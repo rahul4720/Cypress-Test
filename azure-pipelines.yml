@@ -6,9 +6,11 @@
 trigger:
 - azure-pipelines
  
-pool: 'AsCom-TukAgentPool'
+pool:
+  name: 'AsCom-TukAgentPool'
   demands:
-  -agent.name -equal IGQQAASV-PJAKKU 
+   - Agent.Name -equals IGQQAASV-PJAKKU 
+
 
 steps:
 - task: NodeTool@0
