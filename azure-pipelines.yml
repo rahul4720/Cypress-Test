@@ -6,10 +6,11 @@
 trigger:
 - azure-pipelines
  
-pool:
-  name: 'AsCom-TukAgentPool'
-  demands:
-   - Agent.Name -equals IGQQAASV-PJAKKU 
+pool: 
+  vmImage: 'windows-latest'
+  # name: 'AsCom-TukAgentPool'
+  # demands:
+  #  - Agent.Name -equals IGQQAASV-PJAKKU 
 
 
 steps:
